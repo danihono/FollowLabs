@@ -21,15 +21,24 @@ export default function Header() {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <Link href="/">
-          <div className="flex items-center space-x-2 cursor-pointer">
-            <div className="relative">
-              <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
-              <div className="relative text-2xl font-bold text-foreground">
-                Follow<span className="text-primary">Labs</span>
-              </div>
-            </div>
-          </div>
-        </Link>
+  <div className="flex items-center space-x-2 cursor-pointer">
+    {/* LOGO */}
+    <img
+      src="/images/Modernizar LP(4).png"
+      alt="Logo FollowLabs"
+      className="h-8 w-8 object-contain"
+    />
+
+    {/* TEXTO */}
+    <div className="relative">
+      <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
+      <div className="relative text-2xl font-bold text-foreground">
+        Follow<span className="text-primary">Labs</span>
+      </div>
+    </div>
+  </div>
+</Link>
+
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">

@@ -9,20 +9,31 @@ export default function Footer() {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Descrição */}
-          <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="relative">
-                <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
-                <div className="relative text-2xl font-bold text-foreground">
-                  Follow<span className="text-primary">Labs</span>
-                </div>
-              </div>
-            </div>
-            <p className="text-sm text-muted-foreground max-w-md">
-              Transformamos inovação em inteligência aplicada aos negócios. O
-              laboratório de inovação da Follow Advisor.
-            </p>
-          </div>
+        <div className="col-span-1 md:col-span-2">
+  <div className="flex items-center space-x-2 mb-4">
+    
+    {/* LOGO */}
+    <img
+      src="/images/Modernizar LP(4).png"
+      alt="Logo FollowLabs"
+      className="h-8 w-8 object-contain"
+    />
+
+    {/* TEXTO */}
+    <div className="relative">
+      <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
+      <div className="relative text-2xl font-bold text-foreground">
+        Follow<span className="text-primary">Labs</span>
+      </div>
+    </div>
+  </div>
+
+  <p className="text-sm text-muted-foreground max-w-md">
+    Transformamos inovação em inteligência aplicada aos negócios. O
+    laboratório de inovação da Follow Advisor.
+  </p>
+</div>
+
 
           {/* Links Rápidos */}
           <div>
