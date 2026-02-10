@@ -22,7 +22,7 @@ export default function Solucoes() {
     },
     {
       icon: Shield,
-      title: "Software de Gestão da Qualidade e Treinamento (SGQI-PRO)",
+      title: "Software de Gestão da Qualidade e Treinamento",
       description:
         "Controle de qualidade, auditorias, POPs, planos de ação e treinamentos com dashboards automáticos, integração com IA e análise de desempenho.",
       features: [
@@ -32,7 +32,7 @@ export default function Solucoes() {
         "Módulo de capacitação e treinamento",
         "Dashboards em tempo real",
       ],
-      example: "SGQI-PRO — Sistema completo de gestão da qualidade",
+      example: "Sistema completo de gestão da qualidade",
     },
     {
       icon: Layers,
@@ -68,8 +68,8 @@ export default function Solucoes() {
     <>
       <SEO
         title="Soluções FollowLabs - IA, Automação e Desenvolvimento"
-        description="Conheça nossas soluções: Agentes de IA, SGQI-PRO, Desenvolvimento de Plataformas e Marketing Digital Inteligente."
-        keywords="soluções de IA, agentes inteligentes, SGQI-PRO, gestão da qualidade, desenvolvimento de plataformas, marketing digital"
+        description="Conheça nossas soluções: Agentes de IA, Software de Gestão da Qualidade e Treinamento, Desenvolvimento de Plataformas e Marketing Digital Inteligente."
+        keywords="soluções de IA, agentes inteligentes, gestão da qualidade, desenvolvimento de plataformas, marketing digital"
       />
     <div className="min-h-screen">
       {/* Hero Section */}

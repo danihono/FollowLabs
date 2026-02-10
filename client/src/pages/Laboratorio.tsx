@@ -16,7 +16,7 @@ export default function Laboratorio() {
       status: "Ativo",
     },
     {
-      name: "SGQI-PRO Agent",
+      name: "PRO Agent",
       description: "Automação inteligente para gestão da qualidade",
       status: "Em desenvolvimento",
     },

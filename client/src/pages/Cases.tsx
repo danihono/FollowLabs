@@ -24,12 +24,12 @@ export default function Cases() {
     },
     {
       icon: Shield,
-      title: "SGQI-PRO",
+      title: "Software de Gestão da Qualidade e Treinamento",
       category: "Gestão da Qualidade",
       challenge:
         "Uma indústria alimentícia enfrentava dificuldades para gerenciar auditorias, POPs, não conformidades e treinamentos de forma integrada. O processo era fragmentado, com planilhas e documentos dispersos, dificultando a rastreabilidade e conformidade.",
       solution:
-        "Implementamos o SGQI-PRO, uma plataforma completa de gestão da qualidade e treinamento. O sistema centraliza toda a documentação, automatiza workflows de auditoria, gerencia não conformidades e integra módulos de capacitação com dashboards em tempo real.",
+        "Implementamos o Sistema, uma plataforma completa de gestão da qualidade e treinamento. O sistema centraliza toda a documentação, automatiza workflows de auditoria, gerencia não conformidades e integra módulos de capacitação com dashboards em tempo real.",
       results: [
         "Centralização de 100% da documentação de qualidade",
         "Redução de 60% no tempo de preparação para auditorias",
@@ -37,7 +37,7 @@ export default function Cases() {
         "Melhoria de 35% nos indicadores de qualidade",
       ],
       testimonial:
-        "O SGQI-PRO nos deu visibilidade total sobre nossos processos de qualidade. Agora temos controle e previsibilidade.",
+        "O Sistema nos deu visibilidade total sobre nossos processos de qualidade. Agora temos controle e previsibilidade.",
     },
     {
       icon: Bot,
@@ -79,8 +79,8 @@ export default function Cases() {
     <>
       <SEO
         title="Cases de Sucesso FollowLabs - Projetos e Resultados"
-        description="Conheça nossos cases: ColdChain Analyzer, SGQI-PRO, Robô IA Follow e Coach Follow. Projetos que transformaram operações."
-        keywords="cases de sucesso, projetos, coldchain analyzer, sgqi-pro, robô ia follow, coach follow, resultados"
+        description="Conheça nossos cases: ColdChain Analyzer, Sistema de Gestão da Qualidade e Treinamento, Robô IA Follow e Coach Follow. Projetos que transformaram operações."
+        keywords="cases de sucesso, projetos, coldchain analyzer, sistema de gestão da qualidade e treinamento, robô ia follow, coach follow, resultados"
       />
     <div className="min-h-screen">
       {/* Hero Section */}
